@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <header>
         <h1>React Router Dom</h1>
-        <Link to="/Home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
       </header>
 
