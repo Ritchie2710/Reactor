@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <header>
         <h1>React Router Dom</h1>
-        <link to="/">Home</link>
-        <link to="/about">About</link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
       </header>
 
       <Routes>
