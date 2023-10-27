@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import About from "./pages/About";
-import Home from "./pages/Home";
-import { BrowserRouter, Router, Route, Link } from "react-router-dom";
+import Home from "./pages/home";
+import About from "./pages/about";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       </header>
 
       <Routes>
-        <route path="/" element={<Home />} />
-        <route path="/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Routes>
 
       <p>
